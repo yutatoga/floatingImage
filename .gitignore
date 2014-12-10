@@ -1,0 +1,15 @@
+.DS_Store
+Build/
+Makefile
+Project.xcconfig
+addons.make
+config.make
+floatingImageTimeTest.xcodeproj/
+openFrameworks-Info.plist
+
+bin/*
+!bin/data
+
+bin/data/*
+!bin/data/shadersGL2
+
