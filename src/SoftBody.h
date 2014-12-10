@@ -14,6 +14,7 @@
 #endif /* defined(__floatingImageTimeTest__SoftBody__) */
 
 #include "ofMain.h"
+#include "ofxTimeMeasurements.h"
 #define NODES 5
 
 class SoftBody{
@@ -33,6 +34,7 @@ private:
 		float startDistanceFromDestination;
 		float radius;
 		float rotAngle;
+		float rotAngleStep;
 		ofVec2f accel;
 		float springing;
 		float damping;

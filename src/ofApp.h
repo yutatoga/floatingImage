@@ -3,6 +3,7 @@
 #include "ofxVectorGraphics.h"
 #include "ofMain.h"
 #include "softbody.h"
+#include "ofxTimeMeasurements.h"
 class ofApp : public ofBaseApp{
 		
 public:
